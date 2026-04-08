@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start:*)",
+      "Bash(npx serve:*)",
+      "Bash(python -m http.server 9000)",
+      "Bash(npx live-server:*)",
+      "Bash(python:*)",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-1.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076027398-T1HJC6NZANZUS8CBKD4K/IMG_5549.jpg\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-2.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076017354-QRJFPE2DLW2LAG9TWMOE/IMG_5548.jpg\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-3.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076020838-0AL7CAT14CJTQLHY0NOM/Attachment+%282%29.JPG\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-4.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076023904-XH1BAPM1U8MQWEC0FZWL/Attachment.JPEG\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-5.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076392105-0OLIGQ591AYH4Y3F2KGN/IMG_4335.jpg\")",
+      "Bash(ls:*)",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-7.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076027050-GP95LSYJIV19RNSZJ3T0/Attachment+%281%29.JPG\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-8.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076029044-4RJAEKPJCHT31R4K9HWV/Attachment.JPG\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-9.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076412515-PDW3LQ4ON221SVYJ4C0Z/IMG_4177.jpg\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-10.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076419835-YSBZ7E4CS55C4NIE0DYP/IMG_3750.jpg\")",
+      "Bash(curl -sL -o \"C:/Users/benji/dev/ADAPT/img/job-11.jpg\" \"https://images.squarespace-cdn.com/content/v1/5d2f907d5c688700013b6ab8/1753076441290-TII25OTL1Z1TNAD0K9DS/IMG_3736.jpg\")",
+      "Bash(python3 update_reviews.py)",
+      "WebFetch(domain:fonts.cdnfonts.com)",
+      "Bash(curl:*)",
+      "Bash(xxd /c/Users/benji/dev/ADAPT/fonts/coolvetica.woff2)",
+      "Bash(xxd /c/Users/benji/dev/ADAPT/fonts/coolvetica.woff)",
+      "Bash(cwebp:*)",
+      "Bash(winget install:*)",
+      "Bash(mkdir -p /c/Users/benji/Downloads/adapt-images-temp)",
+      "Bash(unzip -o \"/c/Users/benji/Downloads/drive-download-20260407T212033Z-3-001.zip\" -d /c/Users/benji/Downloads/adapt-images-temp/)",
+      "Bash(unzip -o /c/Users/benji/Downloads/libwebp.zip -d /c/Users/benji/Downloads/libwebp-temp/)",
+      "Bash(CWEBP=\"/c/Users/benji/Downloads/libwebp-temp/libwebp-1.5.0-windows-x64/bin/cwebp.exe\")",
+      "Bash(\"$CWEBP\" -version)",
+      "Bash(magick -version)",
+      "Bash(export PATH=\"/c/Program Files/ImageMagick-7.1.2-Q16-HDRI:$PATH\")",
+      "Bash(xxd /c/Users/benji/dev/ADAPT/fonts/coolvetica-test.woff2)",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri ''https://www.cdnfonts.com/api/fonts/14496/download'' -OutFile ''C:\\\\Users\\\\benji\\\\dev\\\\ADAPT\\\\fonts\\\\coolvetica.zip''\")",
+      "Bash(gh --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

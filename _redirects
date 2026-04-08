@@ -1,0 +1,9 @@
+# www to non-www
+https://www.adaptim.com.au/* https://adaptim.com.au/:splat 301!
+
+# Old Squarespace page redirects
+/pipe-civil /services/drainage 301
+/website-terms-and-conditions-of-use / 301
+
+# Netlify subdomain to real domain (add after domain is live)
+# https://adaptplumbing.netlify.app/* https://adaptim.com.au/:splat 301!

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Adapt Plumbing | Gold Coast & Brisbane</title>
+  <meta name="description" content="Get in touch with Adapt Plumbing for a quote or to book a plumber on the Gold Coast or Brisbane. Call 0412 676 793 or submit a request online.">
+  <link rel="canonical" href="https://www.adaptim.com.au/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/services/">Services</a>
+      <a href="/areas/">Areas</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+    <a href="tel:+61412676793" class="nav-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 0412 676 793</a>
+    <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </nav>
+
+  <section class="hero" style="background:linear-gradient(175deg,rgba(9,22,37,0.92),rgba(14,42,78,0.88),rgba(19,96,166,0.82)),url('/img/job-2.jpg') center/cover no-repeat">
+    <div class="wrap" style="max-width:700px;text-align:center">
+      <img src="/img/logo-triangle.png" alt="Adapt Plumbing logo" class="hero-page-logo" style="width:60px;height:auto;">
+      <div class="hero-label">Get in touch</div>
+      <h1>Call us or request a quote online</h1>
+      <p>Call us directly for the fastest response, or fill out the form below and we'll get back to you.</p>
+      <div class="hero-actions">
+        <a href="tel:+61412676793" class="btn btn-o"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 0412 676 793</a>
+        <a href="mailto:support@adaptim.com.au" class="btn btn-g">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec-alt">
+    <div class="wrap">
+      <div class="two-col">
+        <div>
+          <div class="sec-label">Quote Request</div>
+          <h2 class="sec-title">Tell us what you need</h2>
+          <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact-success.html" style="margin-top:20px">
+            <input type="hidden" name="form-name" value="quote-request">
+            <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+            <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+            <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" required></div>
+            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+            <div class="form-group"><label for="service">Service needed</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="General Plumbing">General Plumbing</option>
+                <option value="Blocked Drains">Blocked Drains</option>
+                <option value="Gas Fitting">Gas Fitting</option>
+                <option value="Hot Water Systems">Hot Water Systems</option>
+                <option value="Renovations">Renovations</option>
+                <option value="Pipe & Civil">Pipe & Civil</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="suburb">Suburb</label><input type="text" id="suburb" name="suburb" placeholder="e.g. Robina, Southport, Burleigh"></div>
+            <div class="form-group"><label for="message">Tell us about the job</label><textarea id="message" name="message" placeholder="What's going on? Any details that help us understand the issue."></textarea></div>
+            <button type="submit" class="btn btn-o" style="width:100%;justify-content:center">Send Quote Request</button>
+          </form>
+        </div>
+        <div>
+          <div class="info-card">
+            <h3>Hours & contact</h3>
+            <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">6:30am – 4:30pm</span></div>
+            <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">6:30am – 4:30pm</span></div>
+            <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">6:30am – 4:30pm</span></div>
+            <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">6:30am – 4:30pm</span></div>
+            <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">6:30am – 4:30pm</span></div>
+            <div class="hours-row hours-closed"><span class="hours-day">Sat – Sun</span><span class="hours-time">Closed</span></div>
+            <div class="contact-links">
+              <a href="tel:+61412676793">📞 0412 676 793</a>
+              <a href="mailto:support@adaptim.com.au">✉️ support@adaptim.com.au</a>
+            </div>
+          </div>
+          <div class="info-card" style="margin-top:16px">
+            <h3>Service areas</h3>
+            <p style="font-size:14px;line-height:1.8">We cover the Gold Coast and Brisbane including Robina, Southport, Burleigh Heads, Nerang, Mudgeeraba, Coomera, Palm Beach, Surfers Paradise, Broadbeach, and surrounding suburbs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span class="ft-left">&copy; 2025 Adapt Installations & Maintenance Pty Ltd</span>
+      <div class="ft-right">
+        <span class="ft-tag">QBCC #15194250</span>
+        <span class="ft-tag">NSW #349017C</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

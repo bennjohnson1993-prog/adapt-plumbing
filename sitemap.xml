@@ -10,8 +10,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Service pages — uncomment as they're built -->
-  <!--
   <url>
     <loc>https://www.adaptplumbinggc.com.au/services/general-plumbing.html</loc>
     <changefreq>monthly</changefreq>
@@ -42,13 +40,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  -->
-  <!-- Suburb pages — uncomment as they're built -->
-  <!--
   <url>
-    <loc>https://www.adaptplumbinggc.com.au/areas/robina.html</loc>
+    <loc>https://www.adaptplumbinggc.com.au/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.adaptplumbinggc.com.au/areas/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  -->
 </urlset>
